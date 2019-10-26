@@ -78,11 +78,20 @@ Use sua criatividade, você pode abordar o assunto que quiser!
 
 # Requisitos:
 
-Sua landpage deverá ter os itens que aprendemos na aula:
- - NavBar
+1 - Sua landpage deverá ter os itens que aprendemos na aula:
+ - NavBar, Carrossel, Menu, Card, Modal, Form
  <img src="/src/assets/NavBar.gif">
  
 
+2 - Usar uma fonte do goolgle fontes ou equivalente:
+[Google Fontes](https://fonts.google.com/)
 
+3 - Usar icones de redes sociais iimportados do Fontaweesome:
+[Fontaweesome](https://fontawesome.com/)
+Lembre-se de sempre consultar a docummentação do Bootstrap.
 
+Links para apoio:
+
+[Grid](https://www.origamid.com/projetos/css-grid-layout-guia-completo/)
+[FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 

@@ -4,13 +4,20 @@
 }
 
 .fonte-texto {
-    font-family: 'Permanent Marker', cursive;
-    font-size: 18px;
-    color: darkred;
+    font-family: flood-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:darkred;
 }
 
-.fonte-texto-footer {
-    font-family: 'Permanent Marker', cursive;
+.fonte-titulo-card {
+    font-family: flood-std,sans-serif;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.fonte-texto-card-footer {
+    font-family: flood-std,sans-serif;
     font-size: 15px;
 }
 .imagem-card {
@@ -19,5 +26,5 @@
 }
 
 .borda-card {
-    border-color: deepskyblue;
+    border-color: darkblue;
 }
