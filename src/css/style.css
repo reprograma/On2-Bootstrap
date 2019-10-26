@@ -1,0 +1,23 @@
+.imagem-carrossel {
+    object-fit: cover;
+    height: 400px;
+}
+
+.fonte-texto {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 18px;
+    color: darkred;
+}
+
+.fonte-texto-footer {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 15px;
+}
+.imagem-card {
+    object-fit: cover;
+    height: 286px;
+}
+
+.borda-card {
+    border-color: deepskyblue;
+}
