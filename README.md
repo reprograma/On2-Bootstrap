@@ -32,9 +32,9 @@ Globo
 
 # Agora mão na massa!  
 
-```<img src="https://giphy.com/gifs/Ta1zCPgNNr2GQ/html5"> <img/> ```
+<img src="https://giphy.com/gifs/Ta1zCPgNNr2GQ/html5">
 
-(Documentação em Português) ](https://getbootstrap.com.br/)
+[Documentação em Português](https://getbootstrap.com.br/)
 
 ## Vamos começar com as CDNs, mas o que são as CDNs   
 As CDN — sigla em inglês para Content Delivery Network ou Rede de Distribuição de Conteúdo (tradução livre) são redes de conteúdo não centralizadas. Ou seja, elas hospedam um determinado conteúdo em servidores espalhados em várias partes, permitindo dessa forma a distribuição de forma eficaz independente de onde o acesso é realizado.
