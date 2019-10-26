@@ -32,7 +32,7 @@ Globo
 
 # Agora mão na massa!  
 
-<img src="https://giphy.com/gifs/Ta1zCPgNNr2GQ/html5">
+<img src="https://media.giphy.com/media/Ta1zCPgNNr2GQ/giphy.gif">
 
 [Documentação em Português](https://getbootstrap.com.br/)
 
