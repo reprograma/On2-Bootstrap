@@ -66,5 +66,23 @@ menu
 modal
 form
 
+## Prontas para o exercício? 
+<img src="https://media.giphy.com/media/dWlWuTFzXbBXtcpKXF/giphy.gif">
+
+### Exercício 31/10
+
+## Landpage responsiva
+
+# Tema
+Use sua criatividade, você pode abordar o assunto que quiser!
+
+# Requisitos:
+
+Sua landpage deverá ter os itens que aprendemos na aula:
+ - NavBar
+ <img src="/src/assets/Disney_Paris.jpg">
+ 
+
+
 
 
