@@ -80,7 +80,7 @@ Use sua criatividade, você pode abordar o assunto que quiser!
 
 Sua landpage deverá ter os itens que aprendemos na aula:
  - NavBar
- <img src="/src/assets/Disney_Paris.jpg">
+ <img src="/src/assets/NavBar.gif">
  
 
 
