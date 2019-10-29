@@ -57,7 +57,7 @@ Copie e cole o arquivo de estilo abaixo, dentro da sua <head> antes de todos os 
    
 ### Esse sera o nosso projeto:
 
-<img src="/src/assets/projeto.png"
+<img src="/src/assets/projeto.png">
 
 Vamos aprender a usar: 
 NavBar
