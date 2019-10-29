@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="pt-br">
 
 <head>
     <!-- meta tags -->
@@ -16,165 +16,177 @@
 </head>
 
 <body>
-    <!-- NAV BAR -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
-        <a class="navbar-brand fonte-texto" href="#">Viajando com a Carol
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link fonte-texto" href="#">Minhas dicas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link fonte-texto" data-toggle="modal" data-target="#exampleModal">Contato</a>
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title " id="exampleModalLabel">Contato</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <form>
-                                        <div class="form-group">
-                                            <label for="exampleFormControlInput1">Email</label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                                placeholder="name@example.com">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="exampleFormControlSelect1">Selecione o tipo de
-                                                comentário</label>
-                                            <select class="form-control" id="exampleFormControlSelect1">
-                                                <option>Dúvidas</option>
-                                                <option>Sugestōes</option>
-                                                <option>Elogios</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="exampleFormControlTextarea1">Escreva aqui seu comentário</label>
-                                            <textarea class="form-control" id="exampleFormControlTextarea1"
-                                                rows="3"></textarea>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                                    <button type="button" class="btn btn-primary">Enviar</button>
-                                </div>
-                            </div>
+    <header>
+        <!-- NAV BAR -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+            <a class="navbar-brand fonte-texto" href="#">Viajando com a Carol
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link fonte-texto" href="#">Minhas dicas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fonte-texto" data-toggle="modal" data-target="#modalContato">Contato</a>
+                    </li>
+                    <li class="nav-item dropdown fonte-texto">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Meus Destinos</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Buenos Aires</a></li>
+                            <li><a class="dropdown-item" href="#">Barcelona</a></li>
+                            <li><a class="dropdown-item" href="#">Nova York</a></li>
+                            <li><a class="dropdown-item" href="#">São Francisco</a></li>
+                            <li><a class="dropdown-item" href="#">Los Angeles</a></li>
+                            <li><a class="dropdown-item" href="#">Orlando</a></li>
+                            <li><a class="dropdown-item" href="#">Miami</a></li>
+                            <li><a class="dropdown-item" href="#">Paris</a></li>
+                            <li><a class="dropdown-item" href="#">Madri</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- CARROSSEL -->
+    <main>
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide fonte-texto" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 imagem-carrossel" src="./src/assets/Slide 1.JPG" alt="Primeiro Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Yosemite National Park</h5>
+                            <p>Localizado nas montanhas da Serra Nevada, na Califórnia, EUA.</p>
                         </div>
                     </div>
-                </li>
-                <li class="nav-item dropdown fonte-texto">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Meus Destinos
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Buenos Aires</a>
-                        <a class="dropdown-item" href="#">Barcelona</a>
-                        <a class="dropdown-item" href="#">Nova York</a>
-                        <a class="dropdown-item" href="#">São Francisco</a>
-                        <a class="dropdown-item" href="#">Los Angeles</a>
-                        <a class="dropdown-item" href="#">Orlando</a>
-                        <a class="dropdown-item" href="#">Miami</a>
-                        <a class="dropdown-item" href="#">Paris</a>
-                        <a class="dropdown-item" href="#">Madri</a>
+                    <div class="carousel-item">
+                        <img class="d-flex w-100 imagem-carrossel" src="./src/assets/Slide 2.JPG" alt="Segundo Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Paris</h5>
+                            <p>A cidade luz e todos os seus encantos</p>
+                        </div>
                     </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- CARROSSEL -->
-    <div id="carouselExampleIndicators" class="carousel slide fonte-texto" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100 imagem-carrossel" src="./src/assets/Slide 1.JPG" alt="Primeiro Slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Yosemite National Park</h5>
-                    <p>Localizado nas montanhas da Serra Nevada, na Califórnia, EUA.</p>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 imagem-carrossel" src="./src/assets/Slide 3.JPG" alt="Terceiro Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Cesarea em Israel</h5>
+                            <p>Terra Santa e seus encantos</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </section>
+        <section>
+            <h1 class="text-center fonte-texto pt-5"> Especial Disney!</h1>
+            <p class="text-center text-secundary fonte-texto">Veja tudo sobre a terra da magia em três destinos
+                diferentes
+            </p>
+            <p class="text-center text-secundary fonte-texto pb-5">Orlando, Califórnia ou Paris... Disney uma paixão em
+                vários destinos!</p>
+        </section>
+        <section>
+            <!-- CARD -->
+            <div class="container-fluid">
+                <div class="row justify-content-around">
+                    <div class="card borda-card m-3" style="width: 18rem;">
+                        <img class="card-img-top imagem-card" src="./src/assets/Disney_Orlando.jpg"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title fonte-titulo-card">Disney Orlando</h5>
+                            <p class="card-text fonte-texto-card-footer">Um exemplo de texto rápido para construir o
+                                título do
+                                card e fazer preencher o
+                                conteúdo
+                                do card.</p>
+                            <a href="#" class="btn btn-primary fonte-texto-card-footer">Ver mais</a>
+                        </div>
+                    </div>
+                    <div class="card borda-card m-3" style="width: 18rem;">
+                        <img class="card-img-top imagem-card borda-card" src="./src/assets/Disney_Califa.jpg"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title fonte-titulo-card">Disney Califórnia</h5>
+                            <p class="card-text fonte-texto-card-footer">Um exemplo de texto rápido para construir o
+                                título do
+                                card e fazer preencher o
+                                conteúdo
+                                do card.</p>
+                            <a href="#" class="btn btn-primary fonte-texto-card-footer">Ver mais</a>
+                        </div>
+                    </div>
+                    <div class="card borda-card m-3" style="width: 18rem;">
+                        <img class="card-img-top imagem-card borda-card" src="./src/assets/Disney_Paris.jpg"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title fonte-titulo-card">Disney Paris</h5>
+                            <p class="card-text fonte-texto-card-footer">Um exemplo de texto rápido para construir o
+                                título do
+                                card e fazer preencher o
+                                conteúdo
+                                do card.</p>
+                            <a href="#" class="btn btn-primary fonte-texto-card-footer">Ver mais</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-flex w-100 imagem-carrossel" src="./src/assets/Slide 2.JPG" alt="Segundo Slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Paris</h5>
-                    <p>A cidade luz e todos os seus encantos</p>
+        </section>
+    </main>
+    <!-- Modal -->
+    <div class="modal fade" id="modalContato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title " id="exampleModalLabel">Contato</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100 imagem-carrossel" src="./src/assets/Slide 3.JPG" alt="Terceiro Slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Cesarea em Israel</h5>
-                    <p>Terra Santa e seus encantos</p>
+                <div class="modal-body">
+                    <!-- FORM -->
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Selecione o tipo de
+                                comentário</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Dúvidas</option>
+                                <option>Sugestōes</option>
+                                <option>Elogios</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Escreva aqui seu
+                                comentário</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
                 </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Próximo</span>
-        </a>
-    </div>
-
-    <h1 class="text-center fonte-texto pt-5"> Especial Disney!</h1>
-    <p class="text-center text-secundary fonte-texto">Veja tudo sobre a terra da magia em três destinos diferentes</p>
-    <p class="text-center text-secundary fonte-texto pb-5">Orlando, Califórnia ou Paris... Disney uma paixão em vários
-        destinos!</p>
-
-    <!-- CARD -->
-    <div class="container-fluid">
-        <div class="row justify-content-around">
-            <div class="card borda-card m-3" style="width: 18rem;">
-                <img class="card-img-top imagem-card" src="./src/assets/Disney_Orlando.jpg"
-                    alt="Imagem de capa do card">
-                <div class="card-body">
-                    <h5 class="card-title fonte-titulo-card">Disney Orlando</h5>
-                    <p class="card-text fonte-texto-card-footer">Um exemplo de texto rápido para construir o título do
-                        card e fazer preencher o
-                        conteúdo
-                        do card.</p>
-                    <a href="#" class="btn btn-primary fonte-texto-card-footer">Ver mais</a>
-                </div>
-            </div>
-            <div class="card borda-card m-3" style="width: 18rem;">
-                <img class="card-img-top imagem-card borda-card" src="./src/assets/Disney_Califa.jpg"
-                    alt="Imagem de capa do card">
-                <div class="card-body">
-                    <h5 class="card-title fonte-titulo-card">Disney Califórnia</h5>
-                    <p class="card-text fonte-texto-card-footer">Um exemplo de texto rápido para construir o título do
-                        card e fazer preencher o
-                        conteúdo
-                        do card.</p>
-                    <a href="#" class="btn btn-primary fonte-texto-card-footer">Ver mais</a>
-                </div>
-            </div>
-            <div class="card borda-card m-3" style="width: 18rem;">
-                <img class="card-img-top imagem-card borda-card" src="./src/assets/Disney_Paris.jpg"
-                    alt="Imagem de capa do card">
-                <div class="card-body">
-                    <h5 class="card-title fonte-titulo-card">Disney Paris</h5>
-                    <p class="card-text fonte-texto-card-footer">Um exemplo de texto rápido para construir o título do
-                        card e fazer preencher o
-                        conteúdo
-                        do card.</p>
-                    <a href="#" class="btn btn-primary fonte-texto-card-footer">Ver mais</a>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Enviar</button>
                 </div>
             </div>
         </div>
