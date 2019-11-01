@@ -1,23 +1,27 @@
+.background {
+   background-color:#7d7270; 
+}
+
 .imagem-carrossel {
     object-fit: cover;
     height: 400px;
 }
 
 .fonte-texto {
-    font-family: flood-std,sans-serif;
+    font-family: 'McLaren', cursive;
     font-weight: 400;
     font-style: normal;
     color:darkred;
 }
 
 .fonte-titulo-card {
-    font-family: flood-std,sans-serif;
+    font-family: 'McLaren', cursive;
     font-size: 20px;
     color: darkblue;
 }
 
 .fonte-texto-card-footer {
-    font-family: flood-std,sans-serif;
+    font-family: 'McLaren', cursive;
     font-size: 15px;
 }
 .imagem-card {
@@ -28,3 +32,7 @@
 .borda-card {
     border-color: darkblue;
 }
+
+#footer-redes {
+    font-size: 2em;
+} 
